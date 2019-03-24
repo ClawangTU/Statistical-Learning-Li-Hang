@@ -79,7 +79,7 @@ for i in range(len(y)):
 a = perceptron(x, y, b0 = 900)
 a.plotData()
 w, b, epoch = a.train()
-print(w, b, epoch)
+# print(w, b, epoch)
 a.plotResult()
 
 
